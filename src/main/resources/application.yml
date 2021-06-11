@@ -2,3 +2,18 @@ server:
   port: 8888
   servlet:
     context-path: /ccc
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+
+# 设置info信息
+info:
+  author:
+    name: erlichchen
+    url: https://github.com/ErlichChen
+  project:
+    version: 0.0.1
+
