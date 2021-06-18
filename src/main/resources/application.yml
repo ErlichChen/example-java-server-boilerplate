@@ -3,3 +3,24 @@ spring:
     active: dev
 #    active: pro
 
+#---
+#spring:
+#  config:
+#    activate:
+#      on-profile: dev
+#
+#server:
+#  port: 8000
+#  servlet:
+#    context-path: /dev
+#
+#---
+#spring:
+#  config:
+#    activate:
+#      on-profile: pro
+#
+#server:
+#  port: 8000
+#  servlet:
+#    context-path: /
