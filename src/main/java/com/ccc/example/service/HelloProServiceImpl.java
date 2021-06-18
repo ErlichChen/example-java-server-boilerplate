@@ -9,6 +9,6 @@ public class HelloProServiceImpl implements HelloService {
 
     @Override
     public String send() {
-        return "Hello pro";
+        return "The product server in running on port: ";
     }
 }
