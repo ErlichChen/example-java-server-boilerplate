@@ -13,7 +13,7 @@ class ExampleJavaServerBoilerplateApplicationTests {
 
     @Test
     void contextLoads() {
-        System.out.println(service.hello());
+        System.out.println(service.send());
     }
 
 }

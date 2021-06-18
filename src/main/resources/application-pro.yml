@@ -1,0 +1,24 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /
+
+# 修改actuator监控器相关配置
+management:
+  server:
+    port: 9000                            # 指定actuator监听的端口号
+  endpoints:
+    web:
+      exposure:
+        include: health, info, env, beans # 开启监控终端
+        exclude: beans                    # 关闭监控终端
+      base-path: /actuator                # 指定actuator监控终端的基本路径
+
+# 设置info信息
+info:
+  author:
+    name: erlichchen
+    url: https://github.com/ErlichChen
+  project:
+    version: 0.0.1
+
