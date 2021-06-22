@@ -22,6 +22,9 @@ dependencies {
     testCompileOnly 'org.projectlombok:lombok:1.18.20'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
 
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    implementation 'javax.servlet:jstl'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

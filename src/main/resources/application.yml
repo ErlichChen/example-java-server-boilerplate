@@ -1,7 +1,11 @@
 spring:
   profiles:
     active: dev
-#    active: pro
+    #    active: pro
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
 
 #---
 #spring:
