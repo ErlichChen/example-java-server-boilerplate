@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Register</title>
 </head>
 <body>
-    <form action="userinfo/login" method="post">
+    <form action="userinfo/register" method="post">
         <div>
             <span>用户名: </span>
             <input type="text" name="username">
@@ -15,7 +15,7 @@
             <input type="text" name="password">
         </div>
         <div>
-            <input type="submit" value="login">
+            <input type="submit" value="register">
         </div>
     </form>
 </body>

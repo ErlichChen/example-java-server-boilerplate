@@ -13,8 +13,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.0'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:2.5.0'
 
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
@@ -25,7 +25,12 @@ dependencies {
     implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
     implementation 'javax.servlet:jstl'
 
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'com.alibaba:druid:1.0.29'
+    implementation 'mysql:mysql-connector-java:5.1.31'
+    // Mybatis 代码自动生成所引入的包
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.0'
 }
 
 test {
